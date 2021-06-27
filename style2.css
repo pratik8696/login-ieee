@@ -1,0 +1,40 @@
+nav{
+  padding-top:10%;
+  font-size:1.2rem;
+  border-bottom: 1px solid #E1E5EA;
+}
+.ieee{
+  margin:0 2rem 0 1.5rem;
+  font-size:2.5rem;
+  font-weight:bold;
+}
+.BODY{
+  padding:7% 15%;
+}
+@media (max-width:1200px){
+  .image-man{
+    display: none;
+  }
+  .hea{
+    padding-top:20%
+    text-align:center;
+    font-family: Arial;
+    color:#374151;
+    font-size:4rem;
+  }
+  .subhea{
+    text-align:center;
+    font-family: Arial;
+    font-size:2rem;
+  }
+  .submit-nav{
+  background-color:#13D3CF;
+  border:1px solid #13D3CF;
+}
+.submit-nav:hover{
+  background-color:#5EEAD4;
+  border:1px solid #5EEAD4;
+}
+.blue{
+  color:#0ED3D0;
+}
