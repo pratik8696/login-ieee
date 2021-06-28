@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
+    <script src="ieee.js"></script>
   </head>
   <body>
     <!-- NAVBAR -->
@@ -68,15 +69,15 @@
         <h2 class="hea">Welcome Back</h2>
         <p class="subhea">We are <span class="blue">happy</span> to see you back</p>
       <form class="for">
-        <label for="fname" class="grey">E-Mail Address</label>
+        <label for="fname" class="grey">Username</label>
         <input type="fname" id="fname" name="firstname" placeholder="">
         <label for="fname" class="grey">Password</label>
-        <input type="pas" id="fname" name="password" placeholder="">
+        <input type="pas" id="fname1" name="password" placeholder="">
         <br>
-        <input type="checkbox" id="fname" name="firstname" placeholder="">
+        <input type="checkbox" id="fname2" name="firstname" placeholder="">
         <label for="fname" class="grey">Remember Me</label>
           <label for="fname" class="forgot grey">Forgot Your Password?</label>
-        <input type="button" value="Sign in" class="text-center signin">
+        <input type="button" onclick="check();store()" value="Sign in" class="text-center signin">
       </form>
       </div>
       </div>
